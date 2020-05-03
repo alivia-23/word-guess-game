@@ -1,0 +1,100 @@
+body {
+  background-color: Beige;
+}
+
+#game-app {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+#game-title {
+  color: blue;
+  font-weight: bold;
+  font-size: 85;
+  text-align: center;
+}
+
+#game-body {
+  border: 1px solid blue;
+  height: 60%
+}
+
+#display-words {
+  float: left;
+  width: 40%;
+}
+
+#display-words-title {
+  color: green;
+  font-weight: bold;
+  font-size: 40;
+  text-align: center;
+}
+
+#display-words-area {
+  background-color: skyblue;
+  border: 1px solid black;
+  width: 100%;
+  height: 60%;
+  float: left;
+  overflow: scroll;
+}
+
+#valid-word-list {
+  list-style-type: none;
+  color: brown;
+  font-weight: bold;
+  font-size: 20;
+  text-align: center
+}
+
+#turn-result-list {
+  list-style-type: none;
+  color: brown;
+  font-weight: bold;
+  font-size: 20;
+  text-align: center
+}
+
+#game-result {
+  float: right;
+  width: 40%;
+}
+
+#game-result-title {
+  color: green;
+  font-weight: bold;
+  font-size: 40;
+  text-align: center;
+}
+
+#game-result-area {
+  background-color: skyblue;
+  border: 1px solid black;
+  width: 100%;
+  height: 60%;
+  float: left;
+  overflow: scroll;
+}
+
+#user-turns-title {
+  color: red;
+  font-weight: bold;
+  font-size: 35;
+  text-align: center;
+}
+
+#user-input-area {
+   text-align: center
+}
+
+#submitForm {
+  display: inline-block;
+}
+
+button {
+  background-color: green;
+  color: white
+}
