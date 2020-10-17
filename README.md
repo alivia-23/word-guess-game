@@ -1,17 +1,6 @@
-# Exam 1
 
-* Start from the up-to-date master branch (`git checkout master; git pull origin master`)
-* Create a feature branch named 'exam1' (`git checkout -b exam1`)
-* Modify the `questions.md` file to have the answers required
-* Add a `server.js`, a `words.js` and any other files necessary to create the multiple page web application below
-* Add, commit, and push the branch to github
-* Create a PR to merge to master
-* Be sure to include the reviewer(s).  
-* Due by 11:59pm (PT) Sun Feb 9 (EVEN THOUGH NO CLASS ON FEB 10)
 
 ## Goal and Requirements
-
-* Did you remember the above requirement about `questions.md`?
 
 The application will be a game to guess a word.
 
@@ -58,15 +47,15 @@ If `words.js` has the words "TEA, EAT, TEE, PEA, PET, APE" and the game selects 
 * You may add icons and background images but there is no requirement to do so
 
 ## Restrictions
-* You should use `express` and optionally `cookie-parser` modules only
-* You must add additional JS files (server-side ONLY) that YOU write to uphold the idea of separation of concerns
-* You must use the correct HTTP methods (GET for loading pages, POST for adding content)
+* Should use `express` and optionally `cookie-parser` modules only
+* Must add additional JS files (server-side ONLY) that YOU write to uphold the idea of separation of concerns
+* Must use the correct HTTP methods (GET for loading pages, POST for adding content)
 * Reloading a page should not trigger a POST (use a redirect)
 * Do not use external JS other than base express and cookie-parser
 * Do not use external CSS libraries
-* You may not use floats to do more than manage flowing text with images
-* You may not use HTML tables or CSS table layouts
-* You may NOT use client-side/browser-side Javascript
+* May not use floats to do more than manage flowing text with images
+* May not use HTML tables or CSS table layouts
+* May NOT use client-side/browser-side Javascript
 * Do not have any files in your PR except for the exam (no files from other assignments, for example)
 * Do not use var
 * Do not use alert
